@@ -100,7 +100,7 @@ Como solución, este proyecto propone el uso de un dron equipado con una cámara
 
 <img src="images/dron-vuelo.jpg" width="40%">
 
-<img src="images/interfas-web.jpeg" width="40%">
+<img src="images/interfas-web.jpg" width="40%">
 
 </p>
 # 🛠️ Tecnologías utilizadas
