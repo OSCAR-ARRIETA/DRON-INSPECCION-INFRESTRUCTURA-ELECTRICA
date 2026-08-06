@@ -80,34 +80,6 @@ El proceso de inspección se desarrolla en las siguientes etapas:
 
 ---
 
-# 🏗️ Arquitectura del sistema
-
-text
-                  ☀️ Sistema Fotovoltaico
-                           │
-                           ▼
-                  🚁 Dron de inspección
-                           │
-        ┌──────────┬─────────────┬───────────┐
-        ▼          ▼             ▼
-   🌡️ Cámara    📍 GPS       🌤️ Sensores
-    térmica    NEO-6M      DHT11 / BH1750
-        │          │             │
-        └──────────┴─────────────┘
-                    │
-                    ▼
-                ESP32-S3
-                    │
-               Comunicación Wi-Fi
-                    │
-                    ▼
-            💻 Interfaz Web
-                    │
-                    ▼
-          👨‍🔧 Operador / Técnico
-
----
-
 # 📸 Galería del proyecto
 <p align="center">
 
