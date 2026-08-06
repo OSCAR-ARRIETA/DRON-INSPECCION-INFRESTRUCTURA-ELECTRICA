@@ -103,6 +103,9 @@ Como solución, este proyecto propone el uso de un dron equipado con una cámara
 <img src="images/interfas-web.jpg" width="40%">
 
 </p>
+
+---
+
 # 🛠️ Tecnologías utilizadas
 
 - ESP32-S3
@@ -132,39 +135,6 @@ Como solución, este proyecto propone el uso de un dron equipado con una cámara
 | Chasis del dron | Plataforma aérea |
 | Motores Brushless | Sistema de propulsión |
 | ESC | Control de velocidad de motores |
-
----
-
-# 📂 Estructura del proyecto
-
-text
-📁 docs
-│
-├── Memoria técnica
-├── Diagramas
-└── Documentación
-
-📁 hardware
-│
-├── Diseño electrónico
-├── Componentes
-└── Planos
-
-📁 software
-│
-├── Código ESP32
-├── Código Arduino
-└── Configuración
-
-📁 images
-│
-├── Banner
-├── Fotografías
-└── Capturas del sistema
-
-README.md
-LICENSE
-
 
 ---
 
