@@ -84,7 +84,15 @@ Como solución, este proyecto propone el uso de un dron equipado con una cámara
 
 <img src="images/placa-vuelo.jpeg" width="40%">
 
-<img src="images/placa-sensores.jpeg" width="40%">
+<img src="images/placa-sensores.jpg" width="40%">
+
+</p>
+
+<p align="center">
+
+<img src="images/servidor-espthermal.jpg" width="40%">
+
+<img src="images/puntos-calientes.jpeg" width="40%">
 
 </p>
 # 🛠️ Tecnologías utilizadas
