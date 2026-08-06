@@ -68,9 +68,23 @@ Como solución, este proyecto propone el uso de un dron equipado con una cámara
 # 📸 Galería del proyecto
 <p align="center">
 
-<img src="images/diseño-inventor.jpg" width="45%">
+<img src="images/diseño-inventor.jpg" width="40%">
 
-<img src="images/inventor-render.png" width="45%">
+<img src="images/dron-ensamblado.jpeg" width="40%">
+
+</p>
+<p align="center">
+
+<img src="images/diagrama-conexiones.jpg" width="40%">
+
+<img src="images/diagrama-sensores.jpeg" width="40%">
+
+</p>
+<p align="center">
+
+<img src="images/placa-vuelo.jpeg" width="40%">
+
+<img src="images/placa-sensores.jpeg" width="40%">
 
 </p>
 # 🛠️ Tecnologías utilizadas
