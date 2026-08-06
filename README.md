@@ -65,6 +65,49 @@ Como solución, este proyecto propone el uso de un dron equipado con una cámara
 - 🦺 Reducción de riesgos para el personal técnico.
 
 ---
+
+# ⚙️ Funcionamiento del sistema
+
+El proceso de inspección se desarrolla en las siguientes etapas:
+
+1. El dron despega y realiza el recorrido sobre el sistema fotovoltaico.
+2. La cámara térmica captura imágenes en tiempo real.
+3. El ESP32-S3 procesa la información obtenida por los sensores.
+4. El módulo GPS registra la ubicación de cada inspección.
+5. Los datos ambientales son adquiridos mediante los sensores DHT11 y BH1750.
+6. Toda la información es enviada mediante Wi-Fi a una interfaz web para su visualización.
+7. El operador identifica posibles puntos calientes (Hot Spots) para planificar el mantenimiento correspondiente.
+
+---
+
+# 🏗️ Arquitectura del sistema
+
+text
+                  ☀️ Sistema Fotovoltaico
+                           │
+                           ▼
+                  🚁 Dron de inspección
+                           │
+        ┌──────────┬─────────────┬───────────┐
+        ▼          ▼             ▼
+   🌡️ Cámara    📍 GPS       🌤️ Sensores
+    térmica    NEO-6M      DHT11 / BH1750
+        │          │             │
+        └──────────┴─────────────┘
+                    │
+                    ▼
+                ESP32-S3
+                    │
+               Comunicación Wi-Fi
+                    │
+                    ▼
+            💻 Interfaz Web
+                    │
+                    ▼
+          👨‍🔧 Operador / Técnico
+
+---
+
 # 📸 Galería del proyecto
 <p align="center">
 
@@ -155,16 +198,20 @@ Como solución, este proyecto propone el uso de un dron equipado con una cámara
 ✅ Incremento en la eficiencia de sistemas fotovoltaicos.
 
 ---
+# 💼 Competencias demostradas
 
-# 🔮 Mejoras futuras
+Este proyecto permitió aplicar conocimientos en:
 
-- Implementación de Inteligencia Artificial para detección automática de fallas.
-- Clasificación automática de anomalías térmicas.
-- Almacenamiento de datos en la nube.
-- Generación automática de reportes PDF.
-- Planeación automática de rutas de vuelo.
-- Aplicación móvil para monitoreo en tiempo real.
-- Integración con plataformas GIS.
+- Automatización Industrial
+- Sistemas Embebidos
+- Internet de las Cosas (IoT)
+- Energías Renovables
+- Programación de Microcontroladores
+- Diseño Mecánico
+- Electrónica
+- Redes Inalámbricas
+- Integración de Hardware y Software
+- Desarrollo de Interfaces Web
 
 ---
 
