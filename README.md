@@ -65,7 +65,14 @@ Como solución, este proyecto propone el uso de un dron equipado con una cámara
 - 🦺 Reducción de riesgos para el personal técnico.
 
 ---
+# 📸 Galería del proyecto
+<p align="center">
 
+<img src="images/diseño-inventor.jpg" width="45%">
+
+<img src="images/inventor-render.png" width="45%">
+
+</p>
 # 🛠️ Tecnologías utilizadas
 
 - ESP32-S3
